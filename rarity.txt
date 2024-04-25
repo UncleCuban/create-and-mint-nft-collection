@@ -1,0 +1,81 @@
+Trait type: Artist Edition
+{ trait: 'beeF U', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'Birria Tacos', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'EET MOAR BEEF', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'Impossible Beef', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'Juicy Burger', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'NDA', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'Rocky Beefing', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'S3 HAS BEEF', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'Salt Bae Beefing', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'Salt Bae OG', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'Wagyu', chance: '1', occurrence: '0% out of 100%' }
+
+Trait type: Background
+{ trait: 'Azure', chance: '70', occurrence: '13% out of 100%' }
+{ trait: 'Cream', chance: '70', occurrence: '15% out of 100%' }
+{ trait: 'Dark Checkerboard', chance: '25', occurrence: '9% out of 100%' }
+{ trait: 'Light Checkerboard', chance: '25', occurrence: '9% out of 100%' }
+{ trait: 'Mint', chance: '70', occurrence: '14% out of 100%' }
+{ trait: 'Orange', chance: '70', occurrence: '14% out of 100%' }
+{ trait: 'Platinum', chance: '70', occurrence: '11% out of 100%' }
+{ trait: 'Rose', chance: '70', occurrence: '13% out of 100%' }
+
+Trait type: Beef
+{ trait: 'Filet Blue', chance: '8', occurrence: '3% out of 100%' }
+{ trait: 'Filet Burned', chance: '8', occurrence: '2% out of 100%' }
+{ trait: 'Filet Gold', chance: '3', occurrence: '2% out of 100%' }
+{ trait: 'Filet Medium', chance: '8', occurrence: '3% out of 100%' }
+{ trait: 'Filet Raw', chance: '8', occurrence: '2% out of 100%' }
+{ trait: 'Filet Seiyan', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'Filet Well Done', chance: '8', occurrence: '2% out of 100%' }
+{ trait: 'Filet Zombie', chance: '5', occurrence: '2% out of 100%' }
+
+{ trait: 'Ground Beef Burned', chance: '10', occurrence: '3% out of 100%' }
+{ trait: 'Ground Beef Gold', chance: '3', occurrence: '1% out of 100%' }
+{ trait: 'Ground Beef Medium', chance: '10', occurrence: '2% out of 100%' }
+{ trait: 'Ground Beef Raw', chance: '10', occurrence: '2% out of 100%' }
+{ trait: 'Ground Beef Well Done', chance: '10', occurrence: '3% out of 100%' }
+{ trait: 'Ground Beef Zombie', chance: '5', occurrence: '1% out of 100%' }
+
+{ trait: 'Ribeye Blue', chance: '15', occurrence: '3% out of 100%' }
+{ trait: 'Ribeye Burned', chance: '15', occurrence: '3% out of 100%' }
+{ trait: 'Ribeye Gold', chance: '3', occurrence: '1% out of 100%' }
+{ trait: 'Ribeye Medium', chance: '15', occurrence: '3% out of 100%' }
+{ trait: 'Ribeye Raw', chance: '15', occurrence: '3% out of 100%' }
+{ trait: 'Ribeye Seiyan', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'Ribeye Well Done', chance: '15', occurrence: '3% out of 100%' }
+{ trait: 'Ribeye Zombie', chance: '5', occurrence: '2% out of 100%' }
+
+{ trait: 'Sirloin Blue', chance: '18', occurrence: '2% out of 100%' }
+{ trait: 'Sirloin Burned', chance: '18', occurrence: '3% out of 100%' }
+{ trait: 'Sirloin Gold', chance: '3', occurrence: '1% out of 100%' }
+{ trait: 'Sirloin Medium', chance: '18', occurrence: '3% out of 100%' }
+{ trait: 'Sirloin Raw', chance: '18', occurrence: '3% out of 100%' }
+{ trait: 'Sirloin Seiyan', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'Sirloin Well Done', chance: '18', occurrence: '4% out of 100%' }
+{ trait: 'Sirloin Zombie', chance: '5', occurrence: '1% out of 100%' }
+
+{ trait: 'T Bone Blue', chance: '12', occurrence: '3% out of 100%' }
+{ trait: 'T Bone Burned', chance: '12', occurrence: '3% out of 100%' }
+{ trait: 'T Bone Gold', chance: '3', occurrence: '1% out of 100%' }
+{ trait: 'T Bone Medium', chance: '12', occurrence: '2% out of 100%' }
+{ trait: 'T Bone Raw', chance: '10', occurrence: '3% out of 100%' }
+{ trait: 'T Bone Seiyan', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'T Bone Well Done', chance: '10', occurrence: '2% out of 100%' }
+{ trait: 'T Bone Zombie', chance: '5', occurrence: '1% out of 100%' }
+
+{ trait: 'Tomahawk Blue', chance: '17', occurrence: '4% out of 100%' }
+{ trait: 'Tomahawk Burned', chance: '17', occurrence: '3% out of 100%' }
+{ trait: 'Tomahawk Gold', chance: '3', occurrence: '1% out of 100%' }
+{ trait: 'Tomahawk Medium', chance: '17', occurrence: '3% out of 100%' }
+{ trait: 'Tomahawk Raw', chance: '17', occurrence: '3% out of 100%' }
+{ trait: 'Tomahawk Seiyan', chance: '1', occurrence: '0% out of 100%' }
+{ trait: 'Tomahawk Well Done', chance: '17', occurrence: '3% out of 100%' }
+{ trait: 'Tomahawk Zombie', chance: '5', occurrence: '2% out of 100%' }
+
+Trait type: Accessory
+{ trait: 'MIC', chance: '15', occurrence: '7% out of 100%' }
+{ trait: 'S3 Bold & Spicy', chance: '25', occurrence: '8% out of 100%' }
+{ trait: 'S3 Steak Sauce', chance: '30', occurrence: '7% out of 100%' }
+{ trait: 'S3 Thick & Hearty', chance: '20', occurrence: '6% out of 100%' }

@@ -12,7 +12,7 @@ let data = JSON.parse(rawdata);
 data.forEach((item) => {
 
   // Update the file_url and image values that can be updated in the nft_details.js file.
-  item.file_url = `${NFT_DETAILS.imageFilesBase}/${item.custom_fields.edition}.png`;
+  // item.file_url = `${NFT_DETAILS.imageFilesBase}/${item.custom_fields.edition}.png`;
   item.image = `${NFT_DETAILS.imageFilesBase}/${item.custom_fields.edition}.png`;
 
   // Write the updated json file for the object edition

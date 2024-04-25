@@ -1,7 +1,7 @@
 const NFT_DETAILS = {
-  description: "YOUR_DESCRIPTION_HERE", // Set the description that will be added to each of your NFTs
-  namePrefix: "YOUR_NAME_PREFIX_HERE", // Set the name prefix that will be added for each of your NFTs. Ex. Steaks #1, Steaks #2
-  imageFilesBase: "ipfs://ADD_IPFS_IMAGE_CID_HERE", // Set the pinned IPFS CID when making use of a service like Pinata. Ex. QmP12prm2rp1omr1Ap2orm1oprm12FQWFQOFOGdnasnsda
+  description: "RED MEAT RED CHAIN", // Set the description that will be added to each of your NFTs
+  namePrefix: "BEEF", // Set the name prefix that will be added for each of your NFTs. Ex. Steaks #1, Steaks #2
+  imageFilesBase: "https://w3s.link/ipfs/bafybeigpmwsrzmu5dvnxwy777tla57fh3tt5ehjxmvxw23bkg6bhamlsji", // Set the pinned IPFS CID when making use of a service like Pinata. Ex. QmP12prm2rp1omr1Ap2orm1oprm12FQWFQOFOGdnasnsda
   metaDataJSONFilesBase: "ipfs://ADD_IPFS_META_DATA_CID_HERE", // Set the pinned IPFS CID when making use of a service like Pinata. Ex. QmP12prm2rp1omr1Ap2orm1oprm12FQWFQOFOGdnasndca
   ignoreExactBlankName: true, // This value is a boolean with a value of false or true. If true, then any layer items where the image name is blank, then it will skip that layer when adding metadata information. When set to false, then the information will be added to the metadata.
   genericTitle: "GENERIC_NAMEPREFIX_HERE", // Set the generic name prefix that you want the NFTs to have. Only change if you are planning on using NFT reveal. E.x Unknown

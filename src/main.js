@@ -134,14 +134,12 @@ const addMetadata = (_dna, _edition) => {
   let tempMetadata = {
     name: `${NFT_DETAILS.namePrefix} #${_edition}`,
     description: `${NFT_DETAILS.description}`,
-    file_url: `${NFT_DETAILS.imageFilesBase}/${_edition}.png`,
     image: `${NFT_DETAILS.imageFilesBase}/${_edition}.png`,
     attributes: attributesList,
     custom_fields: {
       dna: sha1(_dna),
       edition: _edition,
       date: dateTime,
-      compiler: "HashLips Art Engine - Modified By ThePeanutGalleryAndCo",
     },
     ...extraMetadata,
   };

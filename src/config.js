@@ -3,7 +3,7 @@ const { FOLDERS } = require(`${BASEDIR}/constants/folders.js`);
 const { MODE } = require(`${FOLDERS.constantsDir}/blend_mode.js`);
 const { NETWORK } = require(`${FOLDERS.constantsDir}/network.js`);
 
-const network = NETWORK.eth;
+const network = NETWORK.sei;
 
 const solanaMetadata = {
   symbol: "STB",
@@ -20,17 +20,45 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 2,
+    growEditionSizeTo: 11,
+    layersOrder: [
+      { name: "Artist Edition" }
+    ],
+  },
+  {
+    growEditionSizeTo: 130,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
-    ]
+      { name: "Beef" },
+      { name: "Accessory" },
+    ],
   },
+  {
+    growEditionSizeTo: 420,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Beef" }
+    ],
+    layerItemsMaxRepeatedTraits: [
+      { name: "Beef/Filet Seiyan", layerItemMaxRepeatedTrait: 1 },
+      { name: "Beef/Fillet Gold", layerItemMaxRepeatedTrait: 3 },
+      { name: "Beef/Fillet Zombie", layerItemMaxRepeatedTrait: 5 },
+      { name: "Beef/Ground Beef Gold", layerItemMaxRepeatedTrait: 3 },
+      { name: "Beef/Ground Beef Zombie", layerItemMaxRepeatedTrait: 5 },
+      { name: "Beef/Ribeye Seiyan", layerItemMaxRepeatedTrait: 1 },
+      { name: "Beef/Ribeye Gold", layerItemMaxRepeatedTrait: 3 },
+      { name: "Beef/Ribeye Zombie", layerItemMaxRepeatedTrait: 5 },
+      { name: "Beef/Sirloin Seiyan", layerItemMaxRepeatedTrait: 1 },
+      { name: "Beef/Sirloin Gold", layerItemMaxRepeatedTrait: 3 },
+      { name: "Beef/Sirloin Zombie", layerItemMaxRepeatedTrait: 5 },
+      { name: "Beef/T Bone Seiyan", layerItemMaxRepeatedTrait: 1 },
+      { name: "Beef/T Bone Gold", layerItemMaxRepeatedTrait: 3 },
+      { name: "Beef/T Bone Zombie", layerItemMaxRepeatedTrait: 5 },
+      { name: "Beef/Tomahawk Seiyan", layerItemMaxRepeatedTrait: 1 },
+      { name: "Beef/Tomahawk Gold", layerItemMaxRepeatedTrait: 3 },
+      { name: "Beef/Tomahawk Zombie", layerItemMaxRepeatedTrait: 5 }
+    ]
+  }
 ];
 
 /* Example of configuration settings
@@ -73,7 +101,7 @@ const layerConfigurations = [
 ];
 */
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
@@ -133,7 +161,7 @@ const preview = {
 };
 
 const preview_gif = {
-  numberOfImages: 5,
+  numberOfImages: 25,
   order: "ASC", // ASC, DESC, MIXED
   repeat: 0,
   quality: 100,
