@@ -114,7 +114,7 @@ const layersSetup = (layersOrder) => {
 const saveImage = (_editionCount) => {
   fs.writeFileSync(
     `${FOLDERS.imagesDir}/${_editionCount}.png`,
-    canvas.toBuffer("image/png")
+    canvas.toBuffer("image/png", {resolution: 300}) // Added resolution for better image quality
   );
 };
 
@@ -434,7 +434,7 @@ const startCreating = async () => {
           }
           continue;
         }
-
+        
         let results = constructLayerToDna(newDna, layers);
         let loadedElements = [];
 

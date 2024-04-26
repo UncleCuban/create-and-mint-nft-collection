@@ -47,6 +47,7 @@
   "author": "Rohan de Jongh (thepeanutgalleryandco)",
   "license": "MIT",
   "dependencies": {
+    "16": "^0.0.2",
     "@chainsafe/dappeteer": "2.4.1",
     "async-sema": "^3.1.1",
     "canvas": "^2.9.0",
