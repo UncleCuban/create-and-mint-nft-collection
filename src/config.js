@@ -18,67 +18,7 @@ const solanaMetadata = {
 };
 
 // If you have selected Solana then the collection starts from 0 automatically
-const layerConfigurations = [
-  {
-    growEditionSizeTo: 11,
-    layersOrder: [
-      { name: "Artist Edition" }
-    ],
-  },
-  {
-    growEditionSizeTo: 130,
-    layersOrder: [
-      { name: "Background" },
-      { name: "Beef" },
-      { name: "Accessory" },
-    ],
-    layerItemsMaxRepeatedTraits: [
-      { name: "Beef/Filet Seiyan", layerItemMaxRepeatedTrait: 0 },
-      { name: "Beef/Filet Gold", layerItemMaxRepeatedTrait: 1 },
-      { name: "Beef/Filet Zombie", layerItemMaxRepeatedTrait: 2 },
-      { name: "Beef/Ground Beef Gold", layerItemMaxRepeatedTrait: 1 },
-      { name: "Beef/Ground Beef Zombie", layerItemMaxRepeatedTrait: 2 },
-      { name: "Beef/Ribeye Seiyan", layerItemMaxRepeatedTrait: 0 },
-      { name: "Beef/Ribeye Gold", layerItemMaxRepeatedTrait: 1 },
-      { name: "Beef/Ribeye Zombie", layerItemMaxRepeatedTrait: 2 },
-      { name: "Beef/Sirloin Seiyan", layerItemMaxRepeatedTrait: 0 },
-      { name: "Beef/Sirloin Gold", layerItemMaxRepeatedTrait: 1 },
-      { name: "Beef/Sirloin Zombie", layerItemMaxRepeatedTrait: 2 },
-      { name: "Beef/T Bone Seiyan", layerItemMaxRepeatedTrait: 0 },
-      { name: "Beef/T Bone Gold", layerItemMaxRepeatedTrait: 1 },
-      { name: "Beef/T Bone Zombie", layerItemMaxRepeatedTrait: 2 },
-      { name: "Beef/Tomahawk Seiyan", layerItemMaxRepeatedTrait: 0 },
-      { name: "Beef/Tomahawk Gold", layerItemMaxRepeatedTrait: 1 },
-      { name: "Beef/Tomahawk Zombie", layerItemMaxRepeatedTrait: 2 }
-    ]
-  },
-  {
-    growEditionSizeTo: 420,
-    layersOrder: [
-      { name: "Background" },
-      { name: "Beef" }
-    ],
-    layerItemsMaxRepeatedTraits: [
-      { name: "Beef/Filet Seiyan", layerItemMaxRepeatedTrait: 1 },
-      { name: "Beef/Filet Gold", layerItemMaxRepeatedTrait: 2 },
-      { name: "Beef/Filet Zombie", layerItemMaxRepeatedTrait: 3 },
-      { name: "Beef/Ground Beef Gold", layerItemMaxRepeatedTrait: 2 },
-      { name: "Beef/Ground Beef Zombie", layerItemMaxRepeatedTrait: 3 },
-      { name: "Beef/Ribeye Seiyan", layerItemMaxRepeatedTrait: 1 },
-      { name: "Beef/Ribeye Gold", layerItemMaxRepeatedTrait: 2 },
-      { name: "Beef/Ribeye Zombie", layerItemMaxRepeatedTrait: 3 },
-      { name: "Beef/Sirloin Seiyan", layerItemMaxRepeatedTrait: 1 },
-      { name: "Beef/Sirloin Gold", layerItemMaxRepeatedTrait: 2 },
-      { name: "Beef/Sirloin Zombie", layerItemMaxRepeatedTrait: 3 },
-      { name: "Beef/T Bone Seiyan", layerItemMaxRepeatedTrait: 1 },
-      { name: "Beef/T Bone Gold", layerItemMaxRepeatedTrait: 2 },
-      { name: "Beef/T Bone Zombie", layerItemMaxRepeatedTrait: 3 },
-      { name: "Beef/Tomahawk Seiyan", layerItemMaxRepeatedTrait: 1 },
-      { name: "Beef/Tomahawk Gold", layerItemMaxRepeatedTrait: 2 },
-      { name: "Beef/Tomahawk Zombie", layerItemMaxRepeatedTrait: 3 }
-    ]
-  }
-];
+const layerConfigurations = [];
 
 /* Example of configuration settings
 const layerConfigurations = [
